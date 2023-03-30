@@ -1,0 +1,33 @@
+# sic 
+## chatgpt 
+I'm sorry, but the command "sic" does not exist or has no universally recognized meaning in the context of computer science or technology. Can you provide more information or context about where you heard this command or in what context it was used? 
+
+## tldr 
+ 
+> Simple IRC client.
+> Part of the suckless tools.
+> More information: <https://tools.suckless.org/sic/>.
+
+- Connect to the default host (irc.ofct.net) with the nickname set in the `$USER` environment variable:
+
+`sic`
+
+- Connect to a given host, using a given nickname:
+
+`sic -h {{host}} -n {{nickname}}`
+
+- Connect to a given host, using a given nickname and password:
+
+`sic -h {{host}} -n {{nickname}} -k {{password}}`
+
+- Join a channel:
+
+`:j #{{channel}}<Enter>`
+
+- Send a message to a channel or user:
+
+`:m #{{channel|user}}<Enter>`
+
+- Set default channel or user:
+
+`:s #{{channel|user}}<Enter>`
