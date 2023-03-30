@@ -1,0 +1,32 @@
+# grex 
+## chatgpt 
+Unfortunately, as an AI language model, I am not sure which programming language or tool the command "grex" refers to. Can you please provide more context or information so I can assist you better? 
+
+## tldr 
+ 
+> Simple command-line tool to generate regular expressions.
+> More information: <https://github.com/pemistahl/grex>.
+
+- Generate a simple regular expression:
+
+` grex {{space_separated_strings}}`
+
+- Generate a case-insensitive regular expression:
+
+`grex -i {{space_separated_strings}}`
+
+- Replace digits with '\d':
+
+`grex -d {{space_separated_strings}}`
+
+- Replace Unicode word character with '\w':
+
+`grex -w {{space_separated_strings}}`
+
+- Replace spaces with '\s':
+
+`grex -s {{space_separated_strings}}`
+
+- Add {min, max} quantifier representation for repeating sub-strings:
+
+`grex -r {{space_separated_strings}}`
